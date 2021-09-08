@@ -2,7 +2,7 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-image: url("img/classroombg2.jpg"); background-repeat: no-repeat;
+	background: url(img/classroombg2.jpg); background-repeat: no-repeat;
   background-attachment: fixed; background-size: cover;  /* background color */
 	color: black;          /* text color for the entire page */
 	font-size: 12px;
