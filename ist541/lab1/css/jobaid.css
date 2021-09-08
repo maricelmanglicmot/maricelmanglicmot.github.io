@@ -2,12 +2,16 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background: url(img/classroombg2.jpg); background-repeat: no-repeat;
-  background-attachment: fixed; background-size: cover;  /* background color */
+	/* background color */
 	color: black;          /* text color for the entire page */
 	font-size: 12px;
 	font-family: Verdana, Geneva, sans-serif;
 }
+html {
+	background: url(img/classroombg2.jpg); background-repeat: no-repeat;
+  background-attachment: fixed; background-size: cover;  
+}
+
 img {border-radius: 20px; box-shadow: 0 4px 8px gray, 0 6px 20px gray;}
 
 h1, h2 { 
