@@ -8,7 +8,7 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 html {
-	background: url("ist541/lab1/img/classroombg2.jpg"); background-repeat: no-repeat;
+	background: url("lab1/img/classroombg2.jpg"); background-repeat: no-repeat;
   background-attachment: fixed; background-size: cover;  
 }
 
