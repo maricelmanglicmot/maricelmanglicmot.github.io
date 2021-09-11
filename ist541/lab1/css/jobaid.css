@@ -15,6 +15,7 @@ html {
 img {border-radius: 20px; box-shadow: 0 4px 8px gray, 0 6px 20px gray;}
 
 h1, h2 { 
+	border:1px solid black;
 	text-align:center; /* centers h1 and h2 content */
 }
 
