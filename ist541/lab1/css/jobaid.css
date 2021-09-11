@@ -53,5 +53,10 @@ h1, h2 {
 	text-align: left;
 }
 
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
+
 
 
