@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: floralwhite; 
+}
+
+.background-img{
+    background:url("../images/peeking.png);
+    width:100%;
+    height:698px; 
+    repeat-x;
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  whitesmoke; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: cornflowerblue; 
+	color: black; 
+}
