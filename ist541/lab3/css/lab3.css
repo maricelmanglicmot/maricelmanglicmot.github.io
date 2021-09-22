@@ -19,8 +19,8 @@ margin: 3px;
 }
 
 a:hover {
-	background-color: cornflowerblue; 
-	color: black; 
+	background-color: black; 
+	color: white; 
 	style: underline; 
 }
 
