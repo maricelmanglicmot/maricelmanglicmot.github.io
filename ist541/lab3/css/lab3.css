@@ -5,6 +5,8 @@ body {
 	text-align: center;
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	background-image: url"../images/peeking.png";
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 a {
 	padding: 15px;
