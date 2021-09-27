@@ -5,9 +5,8 @@
 body {
 	text-align: center;
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	background-image: url("../lab1/img/classroom.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: bottom right;
-	background-color: lightgoldenrodyellow
-	
+	background-image: url("../lab1/img/classroom.jpg"); background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 
 
