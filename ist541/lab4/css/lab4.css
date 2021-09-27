@@ -5,7 +5,7 @@
 body {
 	text-align: center;
 	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	background-image: url("../lab3/images/peeking.png"); background-repeat: no-repeat; background-attachment: fixed; background-position: bottom right;
+	background-image: url("../images/peeking.png"); background-repeat: no-repeat; background-attachment: fixed; background-position: bottom right;
 	background-color: lightgoldenrodyellow
 	
 }
@@ -22,7 +22,7 @@ margin: 3px;
 }
 
 a:hover {
-	font-size:200%;
+	
 	background-color: cornflowerblue; 
 	color: black; 
 	style: underline; 
