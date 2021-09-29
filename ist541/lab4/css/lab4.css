@@ -9,7 +9,9 @@ body {
   	background-attachment: fixed;
 }
 
-
+h1 {
+	color:saddlebrown
+}
 
 a {
 	padding: 15px;
@@ -24,7 +26,7 @@ margin: 3px;
 a:hover {
 	
 	background-color: yellow; 
-	color: black; 
+	color: darkorange; 
 	
 }
 
