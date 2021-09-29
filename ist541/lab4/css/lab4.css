@@ -17,14 +17,15 @@ margin: 3px;
 	font-size: 125%;
 	background-color:  whitesmoke; 
 	color:  saddlebrown; 
+	border: solid; 
 	
 }
 
 a:hover {
 	
-	background-color: lightgoldenrodyellow; 
+	background-color: yellow; 
 	color: black; 
-	style: underline; 
+	
 }
 
 a:visted { font-color: orange; 
