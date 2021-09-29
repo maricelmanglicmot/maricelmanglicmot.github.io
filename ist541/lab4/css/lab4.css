@@ -12,8 +12,8 @@ body {
 h1 {
 	color:saddlebrown;
 	background-color: whitesmoke;
-	border:1px solid black;
-	width: 500px;
+	border:2px dotted saddlebrown;
+	
 }
 
 a {
