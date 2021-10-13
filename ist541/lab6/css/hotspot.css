@@ -2,17 +2,25 @@
 /* CSS Document */
 
 body {
-      background: black;   /* background color */
-      color: black;        /* text color */
+    background-color: white;  /* background color */
+      color: saddlebrown;        /* text color */
       font-size: 12px;
       font-family:Verdana, Geneva, sans-serif;
 }
 
 #wrapper {
-    border: dashed 2px; border-color: lightgoldenrodyellow;
+    border: dotted 2px; border-color: saddlebrown;
 	width:800px;
       margin:0 auto;      /* centers wrapper */
-      background: #8CC6DC;  /* background color */
+      background: antiquewhite;  /* background color */
       text-align:center;  /* centers wrapper content */
 }
 
+img {border-radius: 20px; box-shadow: 0 4px 8px antiquewhite, 0 6px 20px saddlebrown; }
+
+h2, h3 { 
+	text-align:center; /* centers h1 and h2 content */
+	background-color: floralwhite;
+	color: antiquewhite;
+	border:1px dotted saddlebrown; border-radius: 20px;
+}

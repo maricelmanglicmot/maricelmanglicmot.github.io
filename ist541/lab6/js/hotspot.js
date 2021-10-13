@@ -20,7 +20,7 @@ $( function() {
          $("#feedback").html("Grr! Manini doesn't like having his paws touched!");
       }
 
-  $("#feedback").css("backgroundColor","yellow");
+  $("#feedback").css("backgroundColor","antiquewhite");
 $('#myModal').modal("show");
    });
 }); //end main jQuery function
