@@ -9,9 +9,10 @@ body {
 }
 
 #wrapper {
-      width:900px;
+    border: dashed 2px; border-color: lightgoldenrodyellow;
+	width:800px;
       margin:0 auto;      /* centers wrapper */
-      background: white;  /* background color */
+      background: #8CC6DC;  /* background color */
       text-align:center;  /* centers wrapper content */
 }
 
