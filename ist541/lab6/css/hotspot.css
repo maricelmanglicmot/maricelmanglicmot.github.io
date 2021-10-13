@@ -20,7 +20,7 @@ img {border-radius: 20px; box-shadow: 0 4px 8px antiquewhite, 0 6px 20px saddleb
 
 h2, h3 { 
 	text-align:center; /* centers h1 and h2 content */
-	background-color: floralwhite;
-	color: antiquewhite;
+	background-color: white;
+	color: saddlebrown;
 	border:1px dotted saddlebrown; border-radius: 20px;
 }
