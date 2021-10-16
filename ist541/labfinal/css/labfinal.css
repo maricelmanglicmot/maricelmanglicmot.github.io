@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	text-align: center;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-image: url("../images/classroombg2.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position:center;
+	color: black;          
+	font-size: 16px;
+}
+
+h1 {
+	color:saddlebrown;
+	background-color: whitesmoke;
+	border:1px solid saddlebrown;
+	padding: 1px;
+	
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  whitesmoke; 
+	color:  saddlebrown; 
+	border: solid; 
+	
+}
+
+a:hover {
+	
+	background-color: yellow; 
+	color: darkorange; 
+	
+}
+
+a:visted { font-color: orange; 
+
+}
+
+.information{ 
+	border: 1px solid black;
+	background-color: whitesmoke;
+	color: black; 
+	padding:7px;
+	font-size:20px; 
+	display: flex;
+	justify-content: left;
+
+}
+
+img {border-radius: 20px; box-shadow: 0 4px 8px antiquewhite, 0 6px 20px saddlebrown; }
