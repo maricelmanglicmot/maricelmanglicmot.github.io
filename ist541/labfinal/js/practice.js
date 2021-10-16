@@ -6,7 +6,7 @@ $( function() {
          $("#feedback").css("color","black");
          $("#feedback").html("This is the hook.");
       }
-	 if ($(this).attr("id") == "thesis") {
+      if ($(this).attr("id") == "thesis") {
          $("#feedback").css("color","black");
          $("#feedback").html("This is the thesis. Notice how it has 3 main points");
       }
