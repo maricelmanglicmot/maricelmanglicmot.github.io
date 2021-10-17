@@ -4,13 +4,13 @@
 
 body {
 	text-align: center;
-	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+ 
 	background-image: url("../images/classroombg2.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position:center;
 	color: black;          
 	font-size: 16px;
 }
 
-h1 {
+h1{
 	color:saddlebrown;
 	background-color: whitesmoke;
 	border:1px solid saddlebrown;
@@ -23,7 +23,7 @@ a {
 margin: 3px;
 	font-size: 125%;
 	background-color:  whitesmoke; 
-	color:  saddlebrown; 
+	color:  saddlebrown;
 	border: solid; 
 	
 }
@@ -50,4 +50,11 @@ a:visted { font-color: orange;
 
 }
 
-img {border-radius: 20px; box-shadow: 0 4px 8px antiquewhite, 0 6px 20px saddlebrown; }
+img {border-radius: 20px; box-shadow: 0 4px 8px 
+	antiquewhite, 0 6px 20px saddlebrown; 
+}
+
+
+
+
+

@@ -8,16 +8,16 @@ $( function() {
       }
       if ($(this).attr("id") == "thesis") {
          $("#feedback").css("color","black");
-         $("#feedback").html("This is the thesis. Notice how it has 3 main points");
+         $("#feedback").html("This is the thesis. Notice how it has 3 main points.");
       }
       if ($(this).attr("id") == "topicsentence") {
          $("#feedback").css("color","black");
-         $("#feedback").html("This is the topic sentence. Notice how this first sentence tells us what to expect in the paragraph.");
+         $("#feedback").html("This is the topic sentence. Notice how this first sentence tells us what to expect in the paragraph. It is also the first main point in the thesis.");
       }
 
       if ($(this).attr("id") == "concludingsentence") {
          $("#feedback").css("color","black");
-         $("#feedback").html("This is the concluding sentence. It is the last sentence that doesn't introduce anything new other than what is mentioned in the paragraph already.");
+         $("#feedback").html("This is the concluding sentence. It is the last sentence that doesn't introduce anything new other than what is mentioned in the paragraph already. It also connects back to the topic sentence.");
       }
 
   $("#feedback").css("backgroundColor","antiquewhite");
