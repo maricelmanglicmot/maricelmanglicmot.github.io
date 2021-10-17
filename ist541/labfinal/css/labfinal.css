@@ -13,7 +13,6 @@ body {
 #wrapper {
 	width: 1000px;
 	margin:0 auto;    /* centers wrapper */
-	color: saddlebrown;
 }
 
 h1{
@@ -36,8 +35,8 @@ margin: 3px;
 
 a:hover {
 	
-	background-color: yellow; 
-	color: darkorange; 
+	background-color: antiquewhite; 
+	color: black; 
 	
 }
 
@@ -60,6 +59,14 @@ img {border-radius: 20px; box-shadow: 0 4px 8px
 	antiquewhite, 0 6px 20px saddlebrown; 
 }
 
+.subtitle{
+	border: 1px solid black;
+	padding:7px;
+	text-align:left;
+	font-size:16px; 
+	color: black; 
+	background-color: #8CC6DC
+ }
 
 
 
