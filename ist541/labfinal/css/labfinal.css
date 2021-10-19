@@ -17,6 +17,14 @@ body {
 	border: 1px solid saddlebrown;
 }
 
+#wrapper2 {
+	width: 1050px;
+	height:680px;
+	margin:0 auto;    /* centers wrapper */
+	background-color: whitesmoke;
+	border: 1px solid saddlebrown;
+}
+
 h1{
 	color:saddlebrown;
 	background-color: whitesmoke;
@@ -81,6 +89,19 @@ img {border-radius: 20px; box-shadow: 0 4px 8px
 	display: flex;
 	justify-content: left;
 
+}
+
+#fullbibliography {
+	border: saddlebrown 2px dotted;
+	width: 70%;
+	height: auto;
+
+}
+#fullbibliographyinfo {
+	display: none; 
+	border: saddlebrown 2px dotted; 
+	width: 70%;
+	height: auto;
 }
 
 

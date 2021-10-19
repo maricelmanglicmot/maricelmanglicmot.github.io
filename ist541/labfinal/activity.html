@@ -7,10 +7,32 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
 	<link href="css/labfinal.css" rel="stylesheet" type="text/css">
+	
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>	
+	   $( function() {
+	   
+	   $("#fullbibliography").mouseenter( function(){
+		   $("#fullbibliographyinfo").css("display","none");
+		   $("#fullbibliographyinfo").css("display","inline");
+		   $("#hint").css("visibility","hidden");
+		   $("#answer").html("<h2></h2>");
+	   });
+	   
+	   $("#fullbibliographyinfo").mouseleave( function(){
+		   $("#fullbibliography").css("display","inline");
+		   $("#fullbibliographyinfo").css("display","none");
+		   $("#hint").css("visibility","visible");
+		   $("#answer").html("");
+	   });
+	   
+   });
+</script>
+	
+	
 </head>
 
-	
-	
+
 <body>
 	
 	<h1>English Composition Essay Structure</h1>
@@ -22,10 +44,17 @@
 	<a href="practice.html">Practice</a><a href="quiz.html">Quiz</a>
 	
 	<br><br><br>
-	<div id="wrapper">
-	Click on the images below to find more about citations. 
-
+	<div id="wrapper2">
+	<br>
+		<div class="information">
+	Here is an image of one citation in a bibliography. Hoover, or move your mouse on top of, the image to see what is required for a bibliography. Compare the two images. </div>
+ <br><br>
+ 
+   <img id="fullbibliography"  src="images/fullbibliography.png"  />
+   <img id="fullbibliographyinfo" src="images/fullbibliographyinfo.png" />
    
-	</div>		
+  <div id="answer"></div>
+		<br><br><br><br><br>
+	</div>
 </body>
 </html>
