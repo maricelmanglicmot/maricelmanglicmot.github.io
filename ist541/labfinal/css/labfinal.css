@@ -24,6 +24,13 @@ body {
 	background-color: whitesmoke;
 	border: 1px solid saddlebrown;
 }
+#wrapper3 {
+	width: 1050px;
+	height:690px;
+	margin:0 auto;    /* centers wrapper */
+	background-color: whitesmoke;
+	border: 1px solid saddlebrown;
+}
 
 h1{
 	color:saddlebrown;
